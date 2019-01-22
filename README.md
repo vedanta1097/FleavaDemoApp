@@ -24,7 +24,7 @@ Demo Android app for applying Android position at Fleava.
 ## Unsolved Problem 
 <ul>
   <li>I still cant find a way to replace android default shadow with the shadow similar in the mockups. (See facebook and VK button in screenshots)</li>
-  <li>Can't apply gradient background to Floating Action Button (FAB) because FAB's background attribute only accept color resource (solid color) not drawable resource. (Gradient color only can be created with drawable resource)</li>
+  <li>Can't apply gradient background to Floating Action Button (filter icon in top right corner) because FAB's background attribute only accept color resource (solid color) not drawable resource. (Gradient color only can be created with drawable resource)</li>
   <li>The "Spirit" text in the top left corner of mockups cant be included inside RecyclerView. So I just put it in the Tool Bar</li>
   <li>Can't apply gradient color to BottomNavigationView's icon because it only accept solid color from color resource as background color.</li>
 </ul>
