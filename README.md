@@ -1,6 +1,6 @@
 # FleavaDemoApp
 Demo Android app for applying Android position at Fleava.
-<br/>This app was tested on <strong>Nexus 5X API 28</strong>.
+<br/>This app was tested on <strong>Nexus 5X API 28</strong> emulator.
 
 ## API
 <ul>
@@ -14,4 +14,9 @@ Demo Android app for applying Android position at Fleava.
   <li><a href="https://github.com/bumptech/glide">Glide</a> - to load image into ImageView.</li>
   <li><a href="https://github.com/jgabrielfreitas/BlurImageView">BlurImageView</a> - to give blue effect for to the background in the login page.</li>
   <li><a href="https://github.com/hdodenhof/CircleImageView">CircleImageView</a> - to show circle image in the content list</li>
+</ul>
+
+## Unsolved Problem 
+<ul>
+  <li></li>
 </ul>
