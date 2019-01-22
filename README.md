@@ -1,3 +1,3 @@
 # FleavaDemoApp
-Demo Android app for applying Android position at Fleava
-this app was tested on Nexus 5X API 28
+Demo Android app for applying Android position at Fleava.
+<br/>This app was tested on Nexus 5X API 28.
