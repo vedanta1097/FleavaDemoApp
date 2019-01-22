@@ -63,9 +63,6 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
-        CircleImageView circleImageView = findViewById(R.id.profile_bottom_nav);
-        circleImageView.bringToFront();
-
         if (savedInstanceState == null) {
             navigation.setSelectedItemId(R.id.navigation_spirit);
             getSupportFragmentManager()
