@@ -14,6 +14,8 @@ import com.example.vedanta.fleavatest.view.fragment.MindFragment;
 import com.example.vedanta.fleavatest.R;
 import com.example.vedanta.fleavatest.view.fragment.SpiritFragment;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 public class MainActivity extends AppCompatActivity {
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -60,6 +62,9 @@ public class MainActivity extends AppCompatActivity {
 
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
+        CircleImageView circleImageView = findViewById(R.id.profile_bottom_nav);
+        circleImageView.bringToFront();
 
         if (savedInstanceState == null) {
             navigation.setSelectedItemId(R.id.navigation_spirit);

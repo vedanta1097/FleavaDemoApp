@@ -21,4 +21,8 @@
         android:icon="@drawable/ic_event"
         android:title="@string/title_event"/>
 
+    <item
+        android:id="@+id/navigation_placeholder"
+        android:title=" "/>
+
 </menu>
