@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FleavaTest</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_body">Body</string>
+    <string name="title_mind">Mind</string>
+    <string name="title_spirit">Spirit</string>
+    <string name="title_event">Event</string>
+</resources>

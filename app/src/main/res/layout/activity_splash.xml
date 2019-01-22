@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.SplashActivity"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_gradient"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxHeight="110dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/awareness_logo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:fontFamily="@font/proximanova_bold"
+                android:textColor="@color/colorText"
+                android:text="AWARENESS"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="@drawable/facebook_rounded_btn"
+                android:fontFamily="@font/proximanova_regular"
+                android:textColor="@color/colorText"
+                android:text="Continue with Facebook"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:drawableLeft="@drawable/ic_fb_drawable_left"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"/>
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/vk_rounded_btn"
+                android:fontFamily="@font/proximanova_regular"
+                android:textColor="@color/colorText"
+                android:text="Continue with VK"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:drawableLeft="@drawable/ic_vk_drawable_left"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:background="@drawable/transparent_btn"
+                    android:textColor="@color/colorText"
+                    android:text="Login"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/proximanova_regular"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:paddingStart="50dp"
+                    android:paddingEnd="50dp"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#73ffffff"/>
+
+                <Button
+                    android:id="@+id/register"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@drawable/transparent_btn"
+                    android:textColor="@color/colorText"
+                    android:text="Create an Account"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/proximanova_regular"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:paddingStart="50dp"
+                    android:paddingEnd="50dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
