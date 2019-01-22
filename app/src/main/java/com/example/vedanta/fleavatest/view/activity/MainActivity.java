@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
         if (savedInstanceState == null) {
+            navigation.setSelectedItemId(R.id.navigation_spirit);
             getSupportFragmentManager()
                     .beginTransaction()
                     .replace(R.id.main, new SpiritFragment())
