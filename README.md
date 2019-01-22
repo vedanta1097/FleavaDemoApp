@@ -20,3 +20,6 @@ Demo Android app for applying Android position at Fleava.
 <ul>
   <li></li>
 </ul>
+
+## Screenshot
+<image src="https://user-images.githubusercontent.com/17045245/51553513-00519480-1eae-11e9-86d4-41256aeda562.jpg" width=200/>
